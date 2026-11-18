@@ -1,0 +1,36 @@
+
+# ==========================================
+# ROADCAST - GITIGNORE
+# ==========================================
+
+# Dados brutos e processados
+data/*.csv
+data/**/*.csv
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Arquivos temporários do Jupyter
+.ipynb_checkpoints/
+
+# Configurações locais
+.env
+.env.*
+!.env.example
+
+# Configurações do editor
+.vscode/
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
